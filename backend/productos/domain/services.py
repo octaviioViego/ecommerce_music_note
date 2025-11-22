@@ -1,5 +1,5 @@
 """
-  En esta clase vas los servicios como: 
+  En esta clase vas los servicios (Lógica de dominio) como: 
     - Aplicar descuentos.
     - Actualizar inventario.
     - Reglas del negocio.

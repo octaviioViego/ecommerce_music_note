@@ -20,6 +20,7 @@ class Producto(models.Model):
     actualizado_en = models.DateTimeField(auto_now=True)
 
     class Meta:
+        db_table = 'producto'
         ordering = ['-creado_en']
         indexes = [
             models.Index(fields=['slug']),
